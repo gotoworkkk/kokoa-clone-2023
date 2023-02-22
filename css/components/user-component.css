@@ -1,0 +1,52 @@
+.uesr-component__column{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.user-component > .uesr-component__column {
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+.uesr-component__avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 42%;
+    margin-right: 20px;
+}
+.uesr-component__avatar-sm {
+    width: 60px;
+    height: 60px;
+}
+.uesr-component__avatar-xl {
+    width: 80px;
+    height: 80px;
+}
+
+.uesr-component__name{
+    font-weight: 700;
+    font-size: 18px;
+}
+.uesr-component__name-sm {
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.friends-screen__channel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+    margin-top: 10px;
+}
+
+.friends-screen__channel-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-screen__channel-main__chevron{
+    color: rgba(0,0,0,0.5);
+    font-size: 12px;
+}
