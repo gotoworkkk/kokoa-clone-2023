@@ -18,8 +18,12 @@
     position: relative;
 }
 
-a i:not([class="fa-solid fa-user fa-2x"]) {
+a i {
     color: rgb(144, 143, 143);
+}
+
+.main-icon {
+    color: rgb(0,0,0);
 }
 
 .nav__notification {

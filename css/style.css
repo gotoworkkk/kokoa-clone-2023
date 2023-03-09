@@ -11,9 +11,11 @@
 /*screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
     height: 300vh;
     color: #202C2F;
 }
+

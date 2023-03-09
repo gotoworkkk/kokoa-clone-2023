@@ -1,0 +1,38 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icon >i {
+    margin: 20px 0px 15px 0px;
+}
+
+.find-friends {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    color: rgba(0,0,0,0.5);
+}
+
+.find-friends>div {
+    height: 100px;
+}
+
+.find-friends__title {
+    font-size: 14px;
+}
+
+.find-friends__text {
+    text-align: center;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
