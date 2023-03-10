@@ -36,3 +36,91 @@
     border-bottom: 2px solid rgba(0,0,0,0.1);
 }
 
+.open-chat {
+    margin-top: 15px;
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.open-chat__header h4 {
+    font-size: 16px;
+    color: rgba(0,0,0,0.5);
+}
+
+.open-chat__header span {
+    font-size: 13px;
+    color: rgba(0,0,0,0.4);
+}
+
+.open-chat__post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+.open-chat__post-column h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.open-chat__post-column h5 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.open-chat__post-column div {
+    display: flex;
+    align-items: center ;
+}
+
+.open-chat__post-column div img {
+    height: 20px;
+    width: 20px;
+    border-radius: 30%;
+    margin-right: 5px;
+}
+
+.open-chat__post-column div span {
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+}
+
+.open-chat__post-column div div {
+    width: 1px;
+    height: 15px;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0px 5px;
+}
+
+.open-chat__post-column__active {
+    color: rgb(255, 110, 192);
+}
+
+.open-chat__post-photo {
+    position: relative;
+}
+
+.open-chat__post-photo >img {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.open-chat__post-column__like {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    right: 10px;
+    bottom: 7px;
+}
